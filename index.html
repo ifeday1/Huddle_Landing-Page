@@ -1,119 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Huddle Landing page</title>
-    <link rel="stylesheet" href="style.css" >
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Huddle Landing Page | Zuri Challenge</title>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/8dd4b16ac7.js" crossorigin="anonymous"></script>
+
+  <!-- Goolgle Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
 <body>
-    <main>
-        <!-- header -->
-        <div class="big">
-            <div class="head">
-                <img src="./images/logo.svg">
-                <span><p>Try it free</p></span>
-            </div>
-            <div class="cont">
-                <div class="build">
-                    <h1>Build The Community <br> Your Fans Will Love</h1>
-                    <p>Huddle re-imagine the way we build communities. You have<br>
-                    a voice,but o does your audience. Create connections with<br>your
-                    users as you engage in genuine discussion
-                    </p>
-                    <button class="bt-head">Get Started For Free</button>
-                </div>
-                <div>
-                    <img class="img-head" src="./images/illustration-mockups.svg" alt="image">
-                </div>
-            </div>
+  <!-- Hero Section -->
+  <section id="hero">
+
+  <!-- Nav Section -->
+    <nav class="nav-flex">
+      <img src="images/logo.svg" alt="logo" class="logo">
+      <button class="nav-btn">
+        Try It Free
+      </button>
+    </nav>
+  <!-- Banner Section -->
+    <div class="container">
+      
+      <div class="item">
+        <h1 class="heading">
+          Build The community your fans will love
+        </h1>
+        <p class="sub-heading">
+          Huddle re-imagines the way we build communities. You have a voice, 
+          but so does your audience. Create connections with your 
+          users as you engage in genuine discussion.
+        </p>
+
+        <button class="hero-btn">
+          Get Started For Free
+        </button>
+      </div>
+
+      <div class="item">
+        <img src="images/illustration-mockups.svg" alt="" class="banner-img">
+      </div>
+    </div>
+
+  </section>
+
+    <!-- Flex Section -->
+    <section id="middle">
+
+      <div class="flex-container">
+        <div class="flex-item">
+          <h2 class="flex-head">
+            Grow Together
+          </h2>
+          <p class="flex-sub">
+            Generate meaningful discussionwith your audience and
+            build a strong,loyal community. Think on the insightful
+            conversions you miss out with a feedback form
+          </p>
+
         </div>
-        <br>
-           <!-- middle -->
-           <br>
-           <br>
-           <br>
-           <div class="container1">
-            <div class="con-txt">
-                <h2>Grow Together</h2>
-                <p>Generate meaningful discussionwith your audience and<br>
-                build a strong,loyal community. Think on the insightful<br>
-                conversions you miss out with a feedback form
-                </p>
-            </div>
-            <div><img class="con-img" src="./images/illustration-grow-together.svg"></div>
-           </div>
-           <br>
+            
+        <div class="flex-item">
+          <img src="images/illustration-grow-together.svg" alt="">
+        </div>
+      </div>
 
-           <div class="container1">
-                <div><img class="con-img" src="./images/illustration-flowing-conversation.svg"></div>
-   
-                <div class="con-txt"><h2>Flowing Conversions</h2>
-                    <p>You wouldn't paginate a conversions in real life, so why do<br>
-                        it online? Our threads habe just-in-time loading for a more<br>
+      <div class="flex-container rev-row">
+        <div class="flex-item">
+          <h2 class="flex-head">
+            Flow Conversations
+          </h2>
+          <p class="flex-sub">
+            You wouldn't paginate a conversions in real life, so why do
+                        it online? Our threads habe just-in-time loading for a more
                         natural flow.
-                    </p></div>
-                
-            </div>
-           <br>
+          </p>
+        </div>
 
-           <div class="container1">
-            <div class="con-txt">
-                <h2>Your Users</h2>
-                <p>It takes no time at all to integrate Huddle with your app<br>
-                    authentication solution. This means once signed in to<br>
+        <div class="flex-item">
+                      <img src="images/illustration-flowing-conversation.svg" alt="">
+        </div>
+      </div>
+
+      <div class="flex-container">
+        <div class="flex-item">
+          <h2 class="flex-head">
+           Your Users
+          </h2>
+          <p class="flex-sub">
+            It takes no time at all to integrate Huddle with your app
+                    authentication solution. This means once signed in to
                     your app, your user cna start chatting immediately
-                </p>
-            </div>
-            <div><img class="con-img" src="./images/illustration-your-users.svg"></div>
-           </div>
-           <br>
-           <br>
-           <br>
-           <br>
-           <div class="box">
-                <h2>Ready To Build Your Community?</h2>
-                <div><button class="bt-head">Get Started For Free</button></div>
-                
-           </div>
-           <br>
-           <footer>
-               <div class="footer-items">
-               <div class="iteems">
-                <img class="img-footer" src="./images/logo.svg">
-                <p><img src="./images/icon-location.svg">5, Adebayo Adekoya Street New Garage Bariga, Lagos</p>
-                <p><img src="./images/icon-phone.svg">+234 (0) 810 982 2728</p>
-                <p> <img src="./images/icon-email.svg">oladeniifeoluwa123@gmail.com</p>
-                </div>
-                <div class="about">
-                    <p>About Us</p>
-                    <p>What We Do</p>
-                    <p>FAQ</p>
-                </div>
-                <div class="career">
-                    <p>Career</p>
-                    <p>Blog</p>
-                    <p>Contact Us</p>
-                </div>
-                <div class="social">
-                    <a href="https://www.linkedin.com/in/ifeoluwa-oladeni/"  class="home__social-icon">
-                        <i class="uil uil-facebook-alt"></i>
-                    </a>
+          </p>
+        </div>
 
-                    <a href="https://twitter.com/IfeoluwaOladeni?t=LLiahx2C-IL-nV-THcA_dg&s=09"  class="home__social-icon">
-                        <i class="uil uil-twitter-alt"></i>
-                    </a>
+        <div class="flex-item">
+          <img src="images/illustration-your-users.svg" alt="">
+        </div>
+      </div>
+    </section>
 
+      <!-- Footer Section -->
+    <section id="footer">
+      <div class="flex-container lflex">
+        <h1 class="heading">Ready To Build Community?</h1>
+        <button class="hero-btn fbtn">
+          Get Started For Free
+        </button>
+      </div>
+      
+      <div class="foot-item lf">
+        <img src="images/foot-logo.svg" alt="logo" class="pclog">
+       <span> <i><img src="images/icon-location.svg"></i> Gbagada Mainland Lagos, Nigeria.</span> 
+       <span> <i><img src="images/icon-phone.svg"></i>  +234 (0) 810 982 2728</span> 
+       <span> <i> <img src="images/icon-email.svg"></i> oladeniifeoluwa123@gmail.com</span> 
+      </div>
 
-                    <a href="https://github.com/ifeday1" class="home__social-icon">
-                        <i class="uil uil-instagram-alt"></i>
-                    </a>
-                    <p>@Copyright 2022 Huddle.All Right Reserved</p>
-                </div>
-            </div>
-           </footer>
+      <div class="foot-item">
+        <a href="">About Us</a>
+        <a href="">What We Do</a>
+        <a href="">FAQ</a>
+      </div>
+
+      <div class="foot-item">
+        <a href="">Career</a>
+        <a href="">Blog</a>
+        <a href="">Contact Us</a>
+      </div>
+
+      <span class="bloc">
+        <a href="https://www.linkedin.com/in/ifeoluwa-oladeni/"  class="home__social-icon"></a>
+        <i class="fa fa-facebook"></i>
         
-    </main>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+      </span>
+    </section>
+
+
 </body>
 </html>

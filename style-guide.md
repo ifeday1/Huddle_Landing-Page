@@ -42,3 +42,19 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 - [Font Awesome](https://fontawesome.com/)
 - [IcoMoon](https://icomoon.io/)
 - [Ionicons](https://ionicons.com/)
+
+
+ <div>
+            <a href="https://www.linkedin.com/in/ifeoluwa-oladeni/"  class="home__social-icon">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            <a href="https://twitter.com/IfeoluwaOladeni?t=LLiahx2C-IL-nV-THcA_dg&s=09"  class="home__social-icon">
+                <i class="fa fa-twitter" aria-hidden="true"></i>                    </a>
+
+
+            <a href="https://github.com/ifeday1" class="home__social-icon">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+        </div>
+  
+            <p>@Copyright 2022 Huddle.All Right Reserved</p>
+      
